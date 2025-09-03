@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    padding-top: 30px;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    background-color: #000000; /* black background */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    color: #ffffff; /* default text white */
+}
+
+#logo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+#mainDiv {
+    padding: 1rem;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-toggle {
+    border: none;
+    padding: 10px 16px;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #81b043, #4a7c2a); /* green gradient */
+    color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(129, 176, 67, 0.4);
+    transition: all 0.3s ease;
+}
+.dropdown-toggle:hover {
+    background: linear-gradient(135deg, #4a7c2a, #81b043);
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: linear-gradient(to right, #000000, #111111); /* subtle black gradient */
+    border-bottom: 2px solid #81b043;
+    padding: 10px 0;
+}
+
+.card, .wine-item {
+    background: linear-gradient(135deg, #111111, #1a1a1a); /* darker black gradient */
+    border: 2px solid #81b043; /* green border */
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 6px 14px rgba(129, 176, 67, 0.4); /* greenish shadow */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover, .wine-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(129, 176, 67, 0.6);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-title, .wine-title {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-text, .wine-description {
+    font-size: 1.2rem;
+    color: #d8d8d8;
+    line-height: 1.4;
+    margin-bottom: 14px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.price, .wine-price {
+    font-weight: 800;
+    font-size: 1.3rem;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #81b043, #4a7c2a); /* green gradient */
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    align-self: center;
+    color: #ffffff;
+    user-select: none;
+}
+
+#categoryView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card-small {
+    width: 13rem;
+}
+
+@media (max-width: 600px) {
+    .card-title, .subCategory-title {
+        font-size: 1rem;
+    }
+
+    .card-text, .subCategory-description {
+        font-size: 1rem;
+    }
+
+    .price, .subCategory-price {
+        font-size: 1.1rem;
+        padding: 4px 10px;
+    }
+}
+
+#footer {
+    background: linear-gradient(135deg, #000000, #111111);
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-top: 2px solid #81b043;
+}
+
+.insta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.insta-link:hover {
+    color: #81b043;
+}
+
+.insta-link i {
+    font-size: 1.3rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .insta-link {
+        font-size: 1rem;
+    }
+    .insta-link i {
+        font-size: 1.1rem;
+    }
+}
