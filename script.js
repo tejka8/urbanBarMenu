@@ -674,53 +674,111 @@ const products={
             },
             {
                 title: { mk: "Цеден портокал", en: "Orange juice" },
+                image: "photos/nonAlcoholic/juicesCover.jpg",
                 price: "180"
             },
             {
                 title: { mk: "Цеден лимон", en: "Lemon juice" },
+                image: "photos/nonAlcoholic/soft/lemonade.jpg",
                 price: "160"
             },
             {
-                title: { mk: "Цеден цитрон", en: "Citron juice" },
+                title: { mk: "Розева лимонада", en: "Pink lemonade" },
+                image: "photos/nonAlcoholic/soft/pinkLemonade.jpg",
+                price: "160"
+            },
+            {
+                title: { mk: "Цеден цитрон", en: "Grapefruit juice" },
+                image: "photos/nonAlcoholic/soft/grapefruit.jpg",
                 price: "170"
             },
             {
                 title: { mk: "Цеден микс", en: "Juice mix" },
+                image: "photos/nonAlcoholic/soft/mix.jpg",
                 price: "190"
             },
             {
-                title: { mk: "Монін скок", en: "Monin shock" },
+                title: { mk: "Монин", en: "Monin" },
+                image: "photos/nonAlcoholic/soft/monin.jpg",
                 price: "150"
             },
-            {
-                title: { mk: "Розева лимонада", en: "Pink lemonade" },
-                price: "160"
-            },
+
             {
                 title: { mk: "Роса негазирана", en: "Rosa still water" },
+                image: "photos/nonAlcoholic/soft/rosa.jpg",
                 price: "90"
             },
         ],
 
         fizzyDrinks: [
-            { title: { mk: "Кока кола", en: "Coca Cola" }, price: "130" },
-            { title: { mk: "Кока кола зеро", en: "Coca Cola Zero" }, price: "130" },
-            { title: { mk: "Швепс лимон", en: "Schweppes Lemon" }, price: "130" },
-            { title: { mk: "Швепс лимон зеро", en: "Schweppes Lemon Zero" }, price: "130" },
-            { title: { mk: "Швепс мандарина", en: "Schweppes Mandarin" }, price: "130" },
-            { title: { mk: "Швепс тоник", en: "Schweppes Tonic" }, price: "130" },
-            { title: { mk: "Швепс тоник зеро", en: "Schweppes Tonic Zero" }, price: "130" },
-            { title: { mk: "Швепс пинк", en: "Schweppes Pink" }, price: "130" },
-            { title: { mk: "Фанта", en: "Fanta" }, price: "130" },
-            { title: { mk: "Спрајт", en: "Sprite" }, price: "130" },
-            { title: { mk: "Ред Бул", en: "Red Bull" }, price: "250" },
-            { title: { mk: "Цедевита", en: "Cedevita" }, price: "100" },
             {
-                title: { mk: "Роса газирана", en: "Rosa sparkling water" },
+                title: { mk: "Кока кола", en: "Coca Cola" },
+                image: "photos/nonAlcoholic/fizzy/cocaCola.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Кока кола зеро", en: "Coca Cola Zero" },
+                image: "photos/nonAlcoholic/fizzy/zero.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Швепс лимон", en: "Schweppes Lemon" },
+                image: "photos/nonAlcoholic/fizzy/schweppes.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Швепс лимон зеро", en: "Schweppes Lemon Zero" },
+                image: "photos/nonAlcoholic/fizzy/schweppes.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Швепс мандарина", en: "Schweppes Tangerine" },
+                image: "photos/nonAlcoholic/fizzy/tangarine.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Швепс тоник", en: "Schweppes Tonic" },
+                image: "photos/nonAlcoholic/fizzy/tonic.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Швепс тоник зеро", en: "Schweppes Tonic Zero" },
+                image: "photos/nonAlcoholic/fizzy/tonic.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Швепс пинк", en: "Schweppes Pink" },
+                image: "photos/nonAlcoholic/fizzy/pink.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Фанта", en: "Fanta" },
+                image: "photos/nonAlcoholic/fizzy/fanta.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Спрајт", en: "Sprite" },
+                image: "photos/nonAlcoholic/fizzy/sprite.jpg",
+                price: "130"
+            },
+            {
+                title: { mk: "Ред Бул", en: "Red Bull" },
+                image: "photos/nonAlcoholic/fizzy/redBull.jpg",
+                price: "250"
+            },
+            {
+                title: { mk: "Цедевита", en: "Cedevita" },
+                image: "photos/nonAlcoholic/fizzy/cedevita.png",
                 price: "100"
             },
             {
-                title: { mk: "Књаз Милош негазирана", en: "Knjaz Milos sparkling water" },
+                title: { mk: "Роса газирана", en: "Rosa sparkling water" },
+                image: "photos/nonAlcoholic/fizzy/sparkling.jpg",
+                price: "100"
+            },
+            {
+                title: { mk: "Књаз Милош газирана", en: "Knjaz Milos sparkling water" },
+                image: "photos/nonAlcoholic/fizzy/km.jpg",
                 price: "100"
             },
         ]
@@ -878,8 +936,8 @@ function showSubcategories(subcategories, parentCategory) {
         liquor:"photos/alcoholic/liquorCpver.jpg",
         gin:"photos/alcoholic/ginCover.jpg",
         brandy:"photos/alcoholic/brandyCover.jpg",
-        fizzyDrinks: "img/fz.jpg",
-        softDrinks: "img/juices.jpg"
+        fizzyDrinks: "photos/nonAlcoholic/fizzy/fizzyCover.jpg",
+        softDrinks: "photos/nonAlcoholic/soft/assortment-fruit-juices.jpg"
     };
 
     subcategories.forEach(sub => {
