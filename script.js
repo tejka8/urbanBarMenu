@@ -174,17 +174,18 @@ const products={
     alcoholic: {
         cocktails: [
             {
+            title: { mk: "Безалкохолен коктел", en: "Non-Alcoholic Cocktail" },
+            description: { mk: "Безалкохолен коктел", en: "Non-alcoholic cocktail" },
+            image: "photos/alcoholic/cocktails/nonAlc.jpg",
+            price: "220"
+            },
+            {
                 title: { mk: "Black Russian", en: "Black Russian" },
                 description: { mk: "Вотка, ликер од кафе", en: "Vodka, coffee liqueur" },
                 image: "photos/alcoholic/cocktails/blackRussian.jpg",
                 price: "220"
             },
-            {
-                title: { mk: "Безалкохолен коктел", en: "Non-Alcoholic Cocktail" },
-                description: { mk: "Безалкохолен коктел", en: "Non-alcoholic cocktail" },
-                image: "img/alcoholicDrinks/coctails/nonAlcoholic.png",
-                price: "220"
-            },
+
             {
                 title: { mk: "Bahama Mama", en: "Bahama Mama" },
                 description: { mk: "Бел рум, златен рум, Малибу, ликер од кафе, сок од ананас, сок од портокал, лимон", en: "White rum, gold rum, Malibu, coffee liqueur, pineapple juice, orange juice, lemon" },
@@ -658,18 +659,22 @@ const products={
         softDrinks: [
             {
                 title: { mk: "Нектар портокал", en: "Orange nectar" },
+                image: "photos/nonAlcoholic/soft/nextOrange.jpg",
                 price: "150"
             },
             {
                 title: { mk: "Нектар јаболко", en: "Apple nectar" },
+                image: "photos/nonAlcoholic/soft/appleJuice.jpg",
                 price: "150"
             },
             {
                 title: { mk: "Нектар праска", en: "Peach nectar" },
+                image: "photos/nonAlcoholic/soft/peach.jpg",
                 price: "150"
             },
             {
                 title: { mk: "Нектар шумско", en: "Forest fruit nectar" },
+                image: "photos/nonAlcoholic/soft/forest.jpg",
                 price: "150"
             },
             {

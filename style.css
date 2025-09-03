@@ -84,7 +84,7 @@ html, body {
 }
 
 .card-text, .wine-description {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #d8d8d8;
     line-height: 1.4;
     margin-bottom: 14px;
@@ -161,25 +161,11 @@ html, body {
     font-size: 1.3rem;
 }
 
-@media (max-width: 480px) {
-    .card-title {
-        font-size: 1.1rem;
-    }
-    .card-text {
-        font-size: 0.95rem;
-    }
-    .price {
-        font-size: 1.2rem;
-        padding: 6px 12px;
-    }
-}
-
-
 
 /* Headings (h1, h2, h3...) */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* Cards text */
