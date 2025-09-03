@@ -5,8 +5,9 @@ html, body {
     width: 100%;
     max-width: 100%;
     background-color: #000000; /* black background */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-    color: #ffffff; /* default text white */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #222;
 }
 
 #logo {
@@ -49,14 +50,14 @@ html, body {
 }
 
 .card, .wine-item {
-    background: linear-gradient(135deg, #111111, #1a1a1a); /* darker black gradient */
+    background: linear-gradient(135deg, #1b1b1b, #2a2a2a); /* darker black gradient */
     border: 2px solid #81b043; /* green border */
     border-radius: 12px;
     padding: 18px 22px;
     margin-bottom: 20px;
     width: 100%;
     max-width: 250px;
-    box-shadow: 0 6px 14px rgba(129, 176, 67, 0.4); /* greenish shadow */
+    box-shadow: 0 6px 18px rgba(129, 176, 67, 0.5); /* greenish shadow */
     display: flex;
     flex-direction: column;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -160,12 +161,34 @@ html, body {
     font-size: 1.3rem;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 480px) {
-    .insta-link {
-        font-size: 1rem;
-    }
-    .insta-link i {
+    .card-title {
         font-size: 1.1rem;
     }
+    .card-text {
+        font-size: 0.95rem;
+    }
+    .price {
+        font-size: 1.2rem;
+        padding: 6px 12px;
+    }
+}
+
+
+
+/* Headings (h1, h2, h3...) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* Cards text */
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Optional: make navbar text bolder and Montserrat */
+.navbar, .navbar a, .navbar button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }

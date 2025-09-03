@@ -16,349 +16,388 @@ const dictionary={
 const products={
     coffee:[
         {
-            title:{mk:"Еспресо за носење", en:"Espresso To Go"},
-            image:"img/coffee/espressoNew.png",
-            price:"80"
-        },
-        {
-            title:{mk:"Безкофеинско еспресо за носење ", en:"Decaf Espresso To Go"},
-            image:"img/coffee/espressoNew.png",
-            price:"90"
-        },
-        {
-            title:{mk:"Макијато за носење", en:"Macchiato To Go"},
-            image:"img/coffee/machiatto.png",
-            price:"100"
-        },
-        {
-            title:{mk:"Безкофеинско макијато за носење ", en:"Decaf Macchiato To Go"},
-            image:"img/coffee/machiatto.png",
-            price:"100"
-        },
-        {
-            title:{mk:"Нескафе за носење", en:"Nescafe To Go"},
-            image:"img/coffee/nescafe.png",
-            price:"110"
-        },
-        {
-            title:{mk:"Фредо еспресо за носење", en:"Fredo Espresso To Go"},
-            image:"img/coffee/freddoEspressoNew1.png",
-            price:"130"
-        },
-        {
-            title:{mk:"Фредо капучино за носење", en:"Fredo Cappuccino To Go"},
-            image:"img/coffee/freddoCappuccinoNew.jpg",
-            price:"140"
-        },
-        {
             title:{mk:"Американо", en:"Americano"},
-            image:"img/coffee/espressoNew.png",
+            image:"photos/coffee/americano1.jpg",
             price:"100"
         },
         {
             title:{mk:"Еспресо", en:"Espresso"},
-            image:"img/coffee/espressoNew.png",
+            image:"photos/coffee/espresso.png",
             price:"100"
         },
         {
             title:{mk:"Ладно еспресо", en:"Iced Espresso"},
-            image:"img/coffee/espressoNew.png",
+            image:"photos/coffee/icedEspresso.jpg",
             price:"100"
         },
         {
             title:{mk:"Безкофеинско еспресо", en:"Decaf Espresso"},
-            image:"img/coffee/espressoNew.png",
+            image:"photos/coffee/espresso.png",
             price:"110"
         },
         {
             title:{mk:"Мало макијато", en:"Small Macchiato"},
-            image:"img/coffee/espMach.png",
+            image:"photos/coffee/espressoMacchiato.jpg",
             price:"110"
         },
         {
             title:{mk:"Безкофеинско мало макијато", en:"Small Decaf Macchiato"},
-            image:"img/coffee/espMach.png",
+            image:"photos/coffee/espressoMacchiato.jpg",
             price:"120"
         },
         {
             title:{mk:"Ладно макијато", en:"Iced Macchiato"},
-            image:"img/coffee/machiatto.png",
+            image:"photos/coffee/icedMachiato.jpg",
             price:"120"
         },
         {
             title:{mk:"Големо Макијато", en:"Large Macchiato"},
-            image:"img/coffee/machiatto.png",
+            image:"photos/coffee/machiato.jpg",
             price:"120"
         },
         {
             title:{mk:"Безкофеинско макијато", en:"Decaf Macchiato"},
-            image:"img/coffee/machiatto.png",
+            image:"photos/coffee/machiato.jpg",
             price:"130"
         },
         {
             title:{mk:"Капучино", en:"Cappuccino"},
-            image:"img/coffee/cappucinoNew.png",
+            image:"photos/coffee/cappucino.jpg",
             price:"130"
         },
         {
             title:{mk:"Нескафе", en:"Nescafe"},
-            image:"img/coffee/nescafe.png",
+            image:"photos/coffee/nescafe.jpg",
             price:"140"
         },
         {
+            title:{mk:"Нескафе со вкус", en:"Flavored Nescafe"},
+            image:"photos/coffee/nescafe.jpg",
+            price:"160"
+        },
+        {
             title:{mk:"Афогато", en:"Affogato"},
-            image:"img/coffee/affogato.png",
+            image:"photos/coffee/affogato.jpg",
             price:"150"
         },
         {
-            title:{mk:"Дуоло еспресо", en:"Double Espresso"},
-            image:"img/coffee/espressoNew.png",
+            title:{mk:"Дуло еспресо", en:"Double Espresso"},
+            image:"photos/coffee/doubleEspresso.jpg",
             price:"150"
         },
         {
             title:{mk:"Лате макијато", en:"Latte Macchiato"},
-            image:"img/coffee/latteTry.jpg",
+            image:"photos/coffee/latte.jpg",
             price:"150"
         },
         {
             title:{mk:"Дупло макијато", en:"Double Macchiato"},
-            image:"img/coffee/machiatto.png",
-            price:"160"
-        },
-        {
-            title:{mk:"Нескафе со вкус", en:"Flavored Nescafe"},
-            image:"img/coffee/nescafe.png",
+            image:"photos/coffee/machiato.jpg",
             price:"160"
         },
         {
             title:{mk:"Фредо еспресо", en:"Fredo Espresso"},
-            image:"img/coffee/freddoEspressoNew1.png",
+            image:"photos/coffee/freddoEspresso.jpg",
             price:"160"
         },
         {
             title:{mk:"Фредо капучино", en:"Fredo Cappuccino"},
-            image:"img/coffee/freddoCappuccinoNew.jpg",
+            image:"photos/coffee/freddoCappucino.jpg",
             price:"180"
         },
         {
             title:{mk:"Ирско кафе", en:"Irish Coffee"},
-            image:"img/coffee/irishCoffee.png",
+            image:"photos/coffee/irish.jpg",
             price:"240"
         },
         {
             title:{mk:"Лате макијато со вкус", en:"Flavored Latte Macchiato"},
-            image:"img/coffee/latteTry.jpg",
+            image:"photos/coffee/latte.jpg",
             price:"180"
         },
         {
             title:{mk:"Какао", en:"Hot Cocoa"},
-            image:"img/coffee/cocoa.png",
+            image:"photos/coffee/hotCocoa.jpg",
             price:"90"
         },
         {
+            title:{mk:"Топло чоколадо", en:"Hot Chocolate"},
+            image:"photos/coffee/hotChocolate.jpg",
+            price:"150"
+        },
+        {
             title:{mk:"Чај", en:"Tea"},
-            image:"img/coffee/tea.png",
+            image:"photos/coffee/tea.jpg",
             price:"90"
         },
         {
             title:{mk:"Салеп", en:"Salep"},
-            image:"img/coffee/salep.png",
+            image:"photos/coffee/salep.jpg",
             price:"130"
         },
         {
-            title:{mk:"Топло чоколадо", en:"Hot Chocolate"},
-            image:"img/coffee/hotChocolate.png",
-            price:"150"
-        }
+            title:{mk:"Еспресо за носење", en:"Espresso To Go"},
+            image:"photos/coffee/toGo.jpg",
+            price:"80"
+        },
+        {
+            title:{mk:"Безкофеинско еспресо за носење ", en:"Decaf Espresso To Go"},
+            image:"photos/coffee/toGo.jpg",
+            price:"90"
+        },
+        {
+            title:{mk:"Макијато за носење", en:"Macchiato To Go"},
+            image:"photos/coffee/toGo.jpg",
+            price:"100"
+        },
+        {
+            title:{mk:"Безкофеинско макијато за носење ", en:"Decaf Macchiato To Go"},
+            image:"photos/coffee/toGo.jpg",
+            price:"100"
+        },
+        {
+            title:{mk:"Нескафе за носење", en:"Nescafe To Go"},
+            image:"photos/coffee/toGo.jpg",
+            price:"110"
+        },
+        {
+            title:{mk:"Фредо еспресо за носење", en:"Fredo Espresso To Go"},
+            image:"photos/coffee/toGo.jpg",
+            price:"130"
+        },
+        {
+            title:{mk:"Фредо капучино за носење", en:"Fredo Cappuccino To Go"},
+            image:"photos/coffee/toGo.jpg",
+            price:"140"
+        },
     ],
     alcoholic: {
         cocktails: [
             {
                 title: { mk: "Black Russian", en: "Black Russian" },
+                description: { mk: "Вотка, ликер од кафе", en: "Vodka, coffee liqueur" },
                 image: "img/alcoholicDrinks/coctails/blackRussian.png",
                 price: "220"
             },
             {
-                title: { mk: "Non-Alcoholic Cocktail", en: "Non-Alcoholic Cocktail" },
+                title: { mk: "Безалкохолен коктел", en: "Non-Alcoholic Cocktail" },
+                description: { mk: "Безалкохолен коктел", en: "Non-alcoholic cocktail" },
                 image: "img/alcoholicDrinks/coctails/nonAlcoholic.png",
                 price: "220"
             },
             {
                 title: { mk: "Bahama Mama", en: "Bahama Mama" },
+                description: { mk: "Бел рум, златен рум, Малибу, ликер од кафе, сок од ананас, сок од портокал, лимон", en: "White rum, gold rum, Malibu, coffee liqueur, pineapple juice, orange juice, lemon" },
                 image: "img/alcoholicDrinks/coctails/bahamaMama.jpg",
                 price: "230"
             },
             {
                 title: { mk: "Blue Lagoon", en: "Blue Lagoon" },
+                description: { mk: "Вотка, Блу Куракао, Спрајт", en: "Vodka, Blue Curaçao, Sprite" },
                 image: "img/alcoholicDrinks/coctails/blueLagoon.png",
                 price: "240"
             },
             {
                 title: { mk: "Gill", en: "Gill" },
+                description: { mk: "Џин, лимон, шеќерен сируп, газирана вода", en: "Gin, lemon juice, sugar syrup, soda water" },
                 image: "img/alcoholicDrinks/coctails/gill.png",
                 price: "240"
             },
             {
                 title: { mk: "Cosmopolitan", en: "Cosmopolitan" },
+                description: { mk: "Вотка, Трипл Сек, сок од боровница, лимон", en: "Vodka, Triple Sec, cranberry juice, lemon" },
                 image: "img/alcoholicDrinks/coctails/cosmopolitan-min.jpg",
                 price: "250"
             },
             {
                 title: { mk: "Cuba Libre", en: "Cuba Libre" },
+                description: { mk: "Бел рум, кока кола, лимон, шербет", en: "White rum, Coca-Cola, lemon, syrup" },
                 image: "img/alcoholicDrinks/coctails/cubaLibreNew.png",
                 price: "250"
             },
             {
                 title: { mk: "Pink Angel", en: "Pink Angel" },
+                description: { mk: "Вотка, лимон, шербет, кокосово млеко", en: "Vodka, lemon, syrup, coconut milk" },
                 image: "img/alcoholicDrinks/coctails/pinkAngel.png",
                 price: "250"
             },
             {
                 title: { mk: "Sex on the Beach", en: "Sex on the Beach" },
+                description: { mk: "Вотка, портокал сок, гренадин", en: "Vodka, orange juice, grenadine" },
                 image: "img/alcoholicDrinks/coctails/sexOnTheBeach.png",
                 price: "250"
             },
             {
                 title: { mk: "Tequila Sunrise", en: "Tequila Sunrise" },
+                description: { mk: "Текила, сок од портокал, гренадин", en: "Tequila, orange juice, grenadine" },
                 image: "img/alcoholicDrinks/coctails/ts-min.jpg",
                 price: "250"
             },
             {
                 title: { mk: "Amaretto Sour", en: "Amaretto Sour" },
+                description: { mk: "Амарето, шербет, лимон", en: "Amaretto, syrup, lemon" },
                 image: "img/alcoholicDrinks/coctails/amaretoSour.jpg",
                 price: "250"
             },
             {
                 title: { mk: "Bramble", en: "Bramble" },
+                description: { mk: "Џин, ликер од боровница, шербет, лимон", en: "Gin, blueberry liqueur, syrup, lemon" },
                 image: "img/alcoholicDrinks/coctails/brambleNew.jpg",
                 price: "250"
             },
             {
                 title: { mk: "Daiquiri", en: "Daiquiri" },
+                description: { mk: "Бел рум, лимон, шербет", en: "White rum, lemon, syrup" },
                 image: "img/alcoholicDrinks/coctails/daiquiri.jpg",
                 price: "250"
             },
             {
                 title: { mk: "Margarita", en: "Margarita" },
+                description: { mk: "Текила, Трипл Сек, лимон", en: "Tequila, Triple Sec, lemon" },
                 image: "img/alcoholicDrinks/coctails/margarite.jpg",
                 price: "250"
             },
             {
                 title: { mk: "Clover Club", en: "Clover Club" },
+                description: { mk: "Џин, малини, белка од јајце, лимон", en: "Gin, raspberries, egg white, lemon" },
                 image: "img/alcoholicDrinks/coctails/cloverClub.png",
                 price: "250"
             },
             {
                 title: { mk: "Gin Sour", en: "Gin Sour" },
+                description: { mk: "Џин, лимон, шербет", en: "Gin, lemon, syrup" },
                 image: "img/alcoholicDrinks/coctails/ginSour.png",
                 price: "250"
             },
             {
                 title: { mk: "Espresso Martini", en: "Espresso Martini" },
+                description: { mk: "Вотка, ликер од кафе, еспресо, шербет", en: "Vodka, coffee liqueur, espresso, syrup" },
                 image: "img/alcoholicDrinks/coctails/espMartini.jpg",
                 price: "280"
             },
             {
                 title: { mk: "Pina Colada", en: "Pina Colada" },
+                description: { mk: "Бел рум, кокосово млеко, сок од ананас", en: "White rum, coconut milk, pineapple juice" },
                 image: "img/alcoholicDrinks/coctails/pinaColada.png",
                 price: "280"
             },
             {
                 title: { mk: "French Kiss", en: "French Kiss" },
+                description: { mk: "Пенливо вино, ликер од малина, свежи малини", en: "Sparkling wine, raspberry liqueur, fresh raspberries" },
                 image: "img/alcoholicDrinks/coctails/frenchKiss.png",
                 price: "260"
             },
             {
                 title: { mk: "Mexicana", en: "Mexicana" },
+                description: { mk: "Текила, доматен сок, лимета, табаско, сол и пипер", en: "Tequila, tomato juice, lime, Tabasco, salt & pepper" },
                 image: "img/alcoholicDrinks/coctails/mexicana.png",
                 price: "280"
             },
             {
                 title: { mk: "Aperol Sour", en: "Aperol Sour" },
+                description: { mk: "Аперол, шербет, лимон", en: "Aperol, syrup, lemon" },
                 image: "img/alcoholicDrinks/coctails/aperolSour.png",
                 price: "280"
             },
             {
                 title: { mk: "Baby Blue", en: "Baby Blue" },
+                description: { mk: "Џин, шербет, лимон, сино куракао, тоник", en: "Gin, syrup, lemon, blue curaçao, tonic" },
                 image: "img/alcoholicDrinks/coctails/babyBlue.png",
                 price: "280"
             },
             {
                 title: { mk: "White Russian", en: "White Russian" },
+                description: { mk: "Вотка, ликер од кафе, млеко/крема", en: "Vodka, coffee liqueur, milk/cream" },
                 image: "img/alcoholicDrinks/coctails/whiteRussian.png",
                 price: "280"
             },
             {
                 title: { mk: "Whiskey Sour", en: "Whiskey Sour" },
+                description: { mk: "Виски, лимон, шербет, ангостура", en: "Whiskey, lemon, syrup, Angostura" },
                 image: "img/alcoholicDrinks/coctails/whiskeySour.jpg",
                 price: "280"
             },
             {
                 title: { mk: "Vodka Sour", en: "Vodka Sour" },
+                description: { mk: "Вотка, лимон, шербет", en: "Vodka, lemon, syrup" },
                 image: "img/alcoholicDrinks/coctails/vodkaSourNew.jpg",
                 price: "280"
             },
             {
                 title: { mk: "God Father", en: "God Father" },
+                description: { mk: "Скоч виски, амарето", en: "Scotch whiskey, amaretto" },
                 image: "img/alcoholicDrinks/coctails/godFather.png",
                 price: "280"
             },
             {
                 title: { mk: "Caipiroska", en: "Caipiroska" },
+                description: { mk: "Вотка, лајм, кафеав шеќер", en: "Vodka, lime, brown sugar" },
                 image: "img/alcoholicDrinks/coctails/Caipiroska-min.jpg",
                 price: "300"
             },
             {
                 title: { mk: "Mojito", en: "Mojito" },
+                description: { mk: "Бел рум, нане, лајм, кафеав шеќер, газирана вода", en: "White rum, mint, lime, brown sugar, soda water" },
                 image: "img/alcoholicDrinks/coctails/mojito-min.jpg",
                 price: "300"
             },
             {
                 title: { mk: "Negroni", en: "Negroni" },
+                description: { mk: "Џин, вермут, кампари", en: "Gin, vermouth, Campari" },
                 image: "img/alcoholicDrinks/coctails/negroni-min.jpg",
                 price: "300"
             },
             {
                 title: { mk: "Passion Spritz", en: "Passion Spritz" },
+                description: {
+                    mk: "Просеко, сируп од маракуја, газирана вода",
+                    en: "Prosecco, passion fruit syrup, soda water"
+                },
                 image: "img/alcoholicDrinks/coctails/passionSpritz.png",
                 price: "280"
             },
             {
                 title: { mk: "Pornstar Martini", en: "Pornstar Martini" },
+                description: { mk: "Вотка, сируп од маракуја, ванила сируп, просеко", en: "Vodka, passion fruit syrup, vanilla syrup, Prosecco" },
                 image: "img/alcoholicDrinks/coctails/pornstarM-min.jpg",
                 price: "300"
             },
             {
                 title: { mk: "Hugo", en: "Hugo" },
+                description: { mk: "Просеко, елдерфловер, газирана вода, нане, лајм", en: "Prosecco, elderflower, soda water, mint, lime" },
                 image: "img/alcoholicDrinks/coctails/hugoNew.png",
                 price: "300"
             },
             {
                 title: { mk: "Aperol Spritz", en: "Aperol Spritz" },
+                description: { mk: "Аперол, просеко, газирана вода", en: "Aperol, Prosecco, soda water" },
                 image: "img/alcoholicDrinks/coctails/aperolSpritz.jpg",
                 price: "300"
             },
             {
                 title: { mk: "Strawberry Mojito", en: "Strawberry Mojito" },
+                description: { mk: "Бел рум, нане, лајм, кафеав шеќер, газирана вода, јагода сируп", en: "White rum, mint, lime, brown sugar, soda water, strawberry syrup" },
                 image: "img/alcoholicDrinks/coctails/strawberryMojito.png",
                 price: "300"
             },
             {
                 title: { mk: "Paloma", en: "Paloma" },
+                description: { mk: "Текила, сируп од боровница, газирана вода, сол", en: "Tequila, blueberry syrup, soda water, salt" },
                 image: "img/alcoholicDrinks/coctails/paloma-min.jpg",
                 price: "300"
             },
             {
                 title: { mk: "Lemonita", en: "Lemonita" },
+                description: { mk: "Вотка, шербет, лимон, Швепс лимон", en: "Vodka, syrup, lemon, Schweppes lemon" },
                 image: "img/alcoholicDrinks/coctails/lemonita.png",
                 price: "280"
             },
             {
                 title: { mk: "Long Island", en: "Long Island" },
-                description: { mk: "Џин, Tрипл сек, Tекила, Рум, Вотка, Лајм, кока кола", en: "Gin, Triple sec, Tequila, Rum, Vodka, lime, coca cola" },
+                description: { mk: "Џин, Трипл сек, Текила, Рум, Вотка, Лајм, кока кола", en: "Gin, Triple sec, Tequila, Rum, Vodka, lime, Coca-Cola" },
                 image: "img/alcoholicDrinks/coctails/longIsland.jpg",
                 price: "300"
-            },
+            }
         ],
         wines: [
             {
